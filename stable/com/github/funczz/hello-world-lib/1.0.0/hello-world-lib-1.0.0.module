@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.funczz",
+    "module": "hello-world-lib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "ezo7my7ydzagnlf2kr2rbwuac4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "hello-world-lib-1.0.0.jar",
+          "url": "hello-world-lib-1.0.0.jar",
+          "size": 2244,
+          "sha512": "c0811396b424829e7daef24a597f7a3dd1c73ef6a2ea6b97e350ddfe0d79155713d66f98cb0586c9f76247ed2c3c0fde2ceadafe57be94b3d111875bfc7626ba",
+          "sha256": "b31a16ffb5cc04c0922ab4d0d2a71c0347d45f041d01572d51a6f2893fb49d67",
+          "sha1": "293fa6a92665b6633d6833c8657d6c9b6cf03ebd",
+          "md5": "1cb64585e06f020ccbc2a47ac91b4239"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hello-world-lib-1.0.0.jar",
+          "url": "hello-world-lib-1.0.0.jar",
+          "size": 2244,
+          "sha512": "c0811396b424829e7daef24a597f7a3dd1c73ef6a2ea6b97e350ddfe0d79155713d66f98cb0586c9f76247ed2c3c0fde2ceadafe57be94b3d111875bfc7626ba",
+          "sha256": "b31a16ffb5cc04c0922ab4d0d2a71c0347d45f041d01572d51a6f2893fb49d67",
+          "sha1": "293fa6a92665b6633d6833c8657d6c9b6cf03ebd",
+          "md5": "1cb64585e06f020ccbc2a47ac91b4239"
+        }
+      ]
+    }
+  ]
+}
